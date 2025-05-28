@@ -12,9 +12,10 @@ const LandingPage = () => {
       <Card />
 
       <div className="mt-10 space-y-4">
-        <Button title="Small Button" size="small" shape="rounded-sm" />
-        <Button title="Medium Button" size="medium" shape="rounded-md" />
-        <Button title="Large Button" size="large" shape="rounded-full" />
+        <Button title="Small Button" size="small" shape="rounded-sm" styles={"rounded-lg"} />
+        <Button title="Medium Button" size="medium" shape="rounded-md" styles={"rounded-lg"} />
+        <Button title="Large Button" size="large" shape="rounded-full" styles={"rounded-lg"} />
+
       </div>
     </div>
   );
